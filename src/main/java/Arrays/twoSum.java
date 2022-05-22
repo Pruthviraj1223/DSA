@@ -33,6 +33,43 @@ public class twoSum {
 
 //        return result;
 
+//        -----------------------------------------------------------------------------------------------
+
+        // this solution is helpful in other question
+
+
+//        Arrays.sort(nums);
+//
+//        int start = 0;
+//        int end = nums.length - 1;
+//        int[] result = new int[2];
+//
+//        while(start<end){
+//
+//            int sum = nums[start] + nums[end];
+//
+//            if(sum==target){
+//
+//
+//                result[0] = start;
+//                result[1] = end;
+//
+//                return result;
+//            }else if(sum>target){
+//
+//
+//                end--;
+//
+//
+//            }else{
+//
+//
+//                start++;
+//
+//            }
+//
+//        }
+
 
     }
 }
