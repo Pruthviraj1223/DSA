@@ -52,7 +52,7 @@ public class FourSum {
         }
         return res;
     }
-    private List<Integer> helper(int[] nums, int i, int j, int k, int l){
+    private static List<Integer> helper(int[] nums, int i, int j, int k, int l){
         List<Integer> t = new ArrayList<>();
         t.add(nums[i]); t.add(nums[j]); t.add(nums[k]); t.add(nums[l]);
         return t;
